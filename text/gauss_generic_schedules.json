@@ -906,7 +906,7 @@
             {"scriptname": "nrt_dwh_d_contracts",  "sql_file": "nrt/dimensions/iias_merge_rt_dwh_d_contracts.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
             {"scriptname": "nrt_dwh_d_crm_leads",  "sql_file": "nrt/dimensions/iias_merge_rt_dwh_d_crm_leads.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
             {"scriptname": "nrt_dwh_d_crm_competitors",  "sql_file": "nrt/dimensions/iias_merge_rt_dwh_d_crm_competitors.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
-            {"scriptname": "nrt_dwh_d_crm_contacts",  "sql_file": "nrt/dimensions/iias_merge_rt_dwh_d_crm_contacts.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
+            {"scriptname": "nrt_dwh_d_crm_contacts",  "sql_file": "nrt/dimensions/test/iias_merge_rt_dwh_d_crm_contacts.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
             {"scriptname": "nrt_dwh_d_crm_activity_reports",  "sql_file": "nrt/dimensions/iias_merge_rt_dwh_d_crm_activity_reports.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
             {"scriptname": "nrt_dwh_d_crm_status",  "sql_file": "nrt/dimensions/iias_merge_rt_dwh_d_crm_status.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
             {"scriptname": "nrt_dwh_d_crm_sales_team_members",  "sql_file": "nrt/dimensions/iias_merge_rt_dwh_d_crm_sales_team_members.sql", "properties": {"branch_scheduler": "nrt_scheduler"}, "dependencies": ["nrt_schedule"]},
